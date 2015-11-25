@@ -1,0 +1,557 @@
+		* {
+			margin:0;
+			padding:0;
+			}
+		
+		aside {
+			width:300px;
+			/*background-color: lightgoldenrodyellow;*/
+			padding-right:20px;
+			float:left;
+			}
+
+		aside h2 {
+			margin: 10px auto 0px auto;
+			text-align:center;
+			line-height:100%;
+			}
+
+		#aside-wedding {
+			margin: 20px 0px 0px 0px;
+			display:block;
+			}	
+			
+		aside p {
+			margin: 0px;
+			text-align:left;
+			line-height:100%;
+			font-size: 105%;
+			}
+
+		blockquote {
+			display:block;
+			/*background: red;*/
+			padding: 15px 40px 15px 45px;
+			margin: 0 0 0px 0px;
+			position: relative;
+		  
+			/*Font*/
+			font-family: times, serif;
+			font-size: 20px;
+			line-height: 1.2;
+			color: #000;
+			text-align: justify;
+			}
+
+		blockquote::before {
+			content: "\201C"; /*Unicode for Left Double Quote*/
+			
+			/*Font*/
+			font-family: times, serif;
+			font-size: 60px;
+			font-weight: bold;
+			color: #000;
+			  
+			/*Positioning*/
+			position: absolute;
+			left: 10px;
+			top:5px;
+			}
+
+		body {
+			width:940px;
+			margin: 0 auto;
+			}
+			
+		/*-------------------------Contact IIG------------------*/
+
+		#contact-info {
+			font-size:140%;
+		}
+		
+			/*---------Same fieldset for Contacts & Webmaster---*/
+
+			fieldset {
+				padding:10px 20px 10px 10px;
+				border-radius:10px;
+				border:blue 2px solid;
+				background-color:lightgoldenrodyellow;
+				margin-top:10px;
+				font-family: verdana, sans-serif;
+			}
+			
+			fieldset#query {
+				width:907px;
+				padding:10px 20px 10px 10px;
+				border-radius:10px;
+				border:blue 2px solid;
+				background-color:lightgoldenrodyellow;
+				margin-top:80px;
+				font-family: verdana, sans-serif;
+			}
+			
+			input[type=text],
+			input[type=email]{
+				width:100%;
+				height:20px;
+				margin-bottom:10px;
+				padding-bottom:2px;
+				padding-left:10px;
+				font-family: verdana, sans-serif;
+				font-size: 100%;
+			}
+			
+			input[type=radio]{
+				margin-right:14px;
+			}
+			
+			#yes {
+				margin-right:14px;
+			}
+			
+			#no {
+				margin-left:30px;
+				margin-bottom: 10px;
+			}
+
+			#member {
+				margin-right:14px;
+			}
+			
+			#visitor {
+				margin-left:30px;
+			}
+			input[type=checkbox]{
+				margin-right:14px;
+			}
+				
+			input[type=submit]{
+				margin-right:14px;
+				background-image: url(../images/background-light.jpg);
+				font-family: verdana, sans-serif;
+				font-size: 100%;
+			}
+			
+			form p {
+				line-height:1.5;
+				margin-left:10px;
+			}
+			
+			form .last {
+				margin-bottom:10px;
+			}
+			
+			textarea {
+				width:100%;
+				margin-bottom:10px;
+				padding-left:10px;
+				font-family: verdana, sans-serif;
+				font-size: 100%;
+			}
+				
+			select {
+				margin-bottom:10px;
+				font-size:100%;
+			}
+				
+			option {
+				padding:5px;
+				font-size: 100%;
+			}
+				
+			legend {
+				padding:10px;
+				font-size:1.4em;
+				background-image: url(../images/background-light.jpg);
+				opacity:1.0;
+				border-radius:5px;
+				font-family: verdana, sans-serif;
+			}
+				
+			label {
+				display:block;
+				font-family: verdana, sans-serif;
+				margin-bottom: 6px;
+			}
+
+			#table-contact {
+				margin-top: 20px;
+				
+			}
+			
+		/*-------------------------Contact IIG (end)------------------*/
+			
+		/*-------------------------Webmaster query------------------*/
+			#current-webmaster {
+				font-size:180%;
+				color:black;
+			}
+			
+		/*-------------------------Webmaster query (END)------------------*/
+
+		#events {
+			width:560px;
+			/*background-color:lightgoldenrodyellow;*/
+			clear:both;
+			float:left;
+			position:relative;
+			margin: 10px 0px 0px 0px;
+			}
+		
+		#events-dates {
+			/*background-color:yellow;*/
+			float:right;
+			width:360px;
+			margin: 10px 0px 0px 0px;
+			border:1px solid black;
+			font-size: 130%;
+			/*clear:both;*/
+			}
+
+		#events-dates{
+			border:1px solid #666;
+			}
+
+		#events-dates td{
+			/*border:1px solid #666;*/
+			border-collapse:collapse;
+			border-spacing:0;
+			font-size: 90%;
+			max-height:50px; 
+			min-height:50px;
+			padding: 10px;
+			vertical-align: middle;
+			word-wrap:break-word;
+			line-height:1.1;
+			}
+
+		footer {
+			height:30px;
+			background-image: url(../images/background-light.jpg);
+			color: #000;
+			clear:both;
+			text-align:center;
+			margin:0 auto 0 auto;
+			line-height:200%;
+			overflow:hidden;
+			}
+
+		footer a#current {
+			color:black;
+			font-weight:bold;
+			font-size:150%;
+			}
+
+		footer a:hover {
+			color:black;
+			font-weight:bold;
+			font-size:130%;
+			}
+
+
+			
+		footer li {
+			color:#000;
+			display:inline;
+			padding:0 30px 0 0; /* t r b l */
+			}	
+			
+		footer ul {
+			margin-left:auto;
+			margin-right:auto;
+			margin-top:0px;
+			}
+	
+		#go-to-top, #go-to-bottom {
+			text-align:center;
+			font-size:100%;
+		}
+			
+		#header {
+			background-image: url(../images/background-light.jpg);
+			width:920px;
+			height:110px;
+			padding: 0px 0px 0px 20px;
+			}
+
+		#header a:hover {
+			opacity: 0.7;
+			}
+
+
+		#header h1 {
+			margin: 0px auto 0px auto;
+			padding-top:10px;
+			text-align:center;
+			line-height:100%;
+			}
+
+		#header h2 {
+			margin: 0px auto 0px auto;
+			text-align:center;
+			line-height:120%;
+			}
+
+		/* --------------------- Link data table ---------*/	
+		#links {
+			/*width:100%;*/
+			padding: 0px 0 0 0px;
+			}
+
+		#links p{
+			text-align:center;
+			font-size:150%;
+		}
+			
+		#links h1 {
+			font-size: 200%;
+			text-align:left;
+		}	
+
+		#links h2 {
+			line-height:100%;
+			margin-bottom: 20px;
+			text-align:left;
+			color: #666;
+			font-size:130%;
+			font-weight:200;
+		}	
+		
+		#links table {
+			border:1px solid #666;
+			border-collapse:separate;
+			border-spacing:0;
+			margin:0;
+			width:940px;
+			}	
+
+		#links td {
+			border:1px solid #666;
+			/*border-collapse:collapse;*/
+			border-collapse:separate;
+			border-spacing:0;
+			font-size: 110%;
+			max-height:50px; 
+			max-width:300px;
+			min-height:50px;
+			min-width:100px;
+			padding: 10px;
+			vertical-align: middle;
+			word-wrap:break-word;
+			line-height:1.2;
+		}	
+
+		#links th {
+			border:1px solid #666;
+			/*border-collapse:collapse;*/
+			border-collapse:separate;
+			border-spacing:0;
+			font-size: 150%;
+			padding: .5em 0;
+			font-weight:200;
+			}
+		
+		
+		#links tr {
+			/*border:1px solid #666;*/
+			/*border-collapse:collapse;*/
+			border-collapse:separate;
+			border-spacing:0;
+			}	
+		
+		/* --------------------- Link data table (end)---------*/
+		
+		#logo {
+			margin-top:10px;
+			margin-right:20px;
+			margin-left:20px;
+			margin-bottom:0px;
+			float:left;
+			}
+
+		#logo-small {
+			margin-top:0px;
+			margin-right:0px;
+			margin-left:0px;
+			margin-bottom:10px;
+			float:left;
+			}
+			
+		main {
+			width:560px;
+			background-repeat:no-repeat;
+			/*background-color:lightgoldenrodyellow;*/
+			float:left;
+			padding-left:40px;
+			padding-top:20px;
+			margin-right:20px;
+			clear:both;
+			}
+
+		main dl {
+			margin: 10px 0px 10px 0px;
+			/*padding: 20px 0px 0px 0px;*/
+			}
+
+		main dt {
+			font-family: times, sans-serif;
+			font-size:150%;
+			line-height:100%;
+			}
+
+		main dd {
+			font-size:130%;
+			line-height:100%;
+			padding: 5px 0px 0px 20px;
+			}
+
+		main img {
+			padding:0px 0px 10px 0px;
+			}
+			
+		main p {
+			padding:0;
+			margin:0 40px 0 60px;
+			}
+
+		#map {
+			width: 100%;
+			}
+		
+		#map-title {
+			margin: 0px auto 0px auto;
+			}
+
+			
+		/* ------------------ nav1 (top) navigation bar --------- */	
+		#nav1 {
+			width:100%;
+			height:50px;
+			line-height:50px;
+			background-image: url(../images/background-light.jpg);
+			margin: 0 0 0 0;
+			padding: 0 0 0 0;
+			}
+			
+		#nav1 ul {
+		text-align:center;
+		margin-left:auto;
+		margin-right:auto;
+		}
+				
+		#nav1 li {
+			width:20%;
+			float:left;
+			color:blue;
+			text-decoration: underline;
+			list-style-type:none;
+			font-size:150%;
+			}
+		
+		#nav1 a {
+			text-decoration:none;
+			color:blue;
+			display:block;
+			}
+		
+		#nav1 a#current1 {
+			color:black;
+			background-color: #dfe0f5;
+			font-weight:bold;
+			font-size:130%;
+			}
+
+		#nav1 a:hover {
+			color:black;
+			font-weight:bold;
+			font-size:130%;
+			}
+		/* ------------------ nav1 (top) navigation bar (END)--------- */	
+
+		/* ------------------ nav2 (top) navigation bar --------- */	
+		#nav2 {
+			width:100%;
+			height:50px;
+			line-height:50px;
+			background-color: #dfe0f5;
+			/*background-image: url(../images/background-light.jpg);*/
+			margin: 0 0 0 0;
+			padding: 0 0 0 0;
+			}
+			
+		#nav2 ul {
+		text-align:center;
+		margin-left:auto;
+		margin-right:auto;
+		}
+				
+		#nav2 li {
+			width:25%;
+			float:left;
+			color:blue;
+			text-decoration: underline;
+			list-style-type:none;
+			font-size:150%;
+			}
+		
+		#nav2 a {
+			text-decoration:none;
+			color:blue;
+			display:block;
+			}
+		
+		#nav2 a#current2 {
+			color:black;
+			background-color: #ffffff;
+			font-weight:bold;
+			font-size:130%;
+			}
+
+		#nav2 a:hover {
+			color:black;
+			font-weight:bold;
+			font-size:130%;
+			}
+		/* ------------------ nav2 (top) navigation bar (END)--------- */	
+			
+		/* ------------Aside - Table Parameters----------------*/
+		#aside table {
+			width:320px;
+			border:1px solid black;
+			font-size: 130%;
+			}
+
+		#aside table td {
+			vertical-align:top;
+			text-align:left;
+			padding:5px;
+			font-size:100%;
+			}	
+	 
+		#aside table th {
+			color:black;
+			vertical-align:top;
+			padding:8px;
+			font-size:120%;
+			}
+			
+		#aside td a:hover {
+			opacity: 0.7;
+			}	
+
+			/* ------------Aside - Table Parameters -  END ------------*/
+			
+		ul .nav {
+			margin:0px;
+			}
+		
+		main.thx-contact  {
+			width:100%;
+			font-size:150%;
+			padding:60px 20px 40px 40px;
+		}
+		
+		#wrapper {
+			/*width:940px;*/
+			/*background-color: red;*/
+			}

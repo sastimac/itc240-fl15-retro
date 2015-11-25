@@ -1,0 +1,116 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Contacts</title>
+
+	<!--Remy Sharp Shim --> 
+	<!--[if lt IE 9]> 
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js">
+	</script> 
+	<![endif]-->
+
+		<link rel=stylesheet href="css/style.css" type="text/css" media=screen>
+	
+	</head>
+
+	<body>
+		<div id="wrapper">
+
+			<nav id="nav1">
+				<ul class="nav1">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="events.html">Events</a></li>
+					<li><a href="links.html">Links</a></li>
+					<li><a href="http://www.rootsweb.ancestry.com/~wakcegs/pages/sigs.html" >EGS</a></li>
+
+					<li><a id="current1" href="contacts.html">Contacts</a></li>
+				</ul>
+
+			</nav> <!-- nav1 -->
+
+		<div id="header">
+				<a href="http://www.rootsweb.ancestry.com/~wakcegs/"><img id="logo" src="images/egs.png" alt="egs" width="149" height="141"/></a>
+				<h1>Italian Interest Group (IIG)</h1>
+				<h2>(Founded March 1990)</h2>
+				<h2>Of The Eastside Genealogical Society</h2>
+			</div> <!--header-->
+
+			<p id="contact-info"> Genealogy questions will be presented at the next group meeting but <strong>we do not perform research</strong>.</p>
+
+			
+			
+			<div id="table-contact">
+				<form action="formhandler-contact.php" method="post">
+
+					<fieldset> <!--border-->
+						<legend>Contact Information</legend>
+						<label>First Name (required)</label>
+						<input type="text" name="first-name" id="first-name">
+						<label>Last Name (required)</label>
+						<input type="text" name="last-name" id="last-name">
+
+						<label>Join our email announcement list to receive meeting notices</label>
+						<p><input type="radio" name="notice" id="yes" value="yes">Yes<input type="radio" name="notice" id="no" value="no">No</p>
+
+						<label>eMail Address (required - we do not distribute any email addresses)</label>
+						<input type="email" name="email" id="email">
+					</fieldset>
+					
+					<fieldset> <!--border-->
+						<label>Member Status</label>
+						<p><input type="radio" name="member-status" id="member" value="member">Member  <input type="radio" name="member-status" id="visitor" value="visitor">Visitor</p>
+						<br />
+						
+						
+						<label>Special Interests</label>
+						<p><input type="checkbox" name="interests[]" id="italian-resources" value="Italian Resources">Online Italian Resources</p>
+						<p><input type="checkbox" name="interests[]" id="problem" value="Problem">Help with a genealogical problem</p>
+						<p><input type="checkbox" name="interests[]" id="genealogical-societies" value="genealogical-societies">Local Genealogical Societies</p>
+						<p><input type="checkbox" name="interests[]" id="group-culture" value="group-culture">Local Italian Culture and Language Groups</p>
+					</fieldset>
+
+					<fieldset> <!--border-->
+						<legend>Question?</legend>
+
+						<label>Ancestor Name</label>
+						<input type="text" name="ancestor" id="ancestor-name">
+						<label>Birthdate?</label>
+						<input type="text" name="birthdate" id="birthdate">
+						<label>Ancestor Location</label>
+						<input type="text" name="ancestor-location" id="ancestor-location">
+
+						<label>What is your specific question?</label>
+						<p>(NOTE: Questions will be presented at the next group meeting but  <strong>we do not perform research</strong>)</p>
+							<select name="comment-type" id="comment-type">
+								<option value="select">Select One</option>
+								<option value="suggestions">Suggestions for meeting topics</option>
+								<option value="mtg-refreshments">Meeting refreshments</option>
+								<option value="websites">Genealogical websites of interest</option>
+								<option value="other">Other</option>
+							</select>
+
+						<textarea name="comments" rows="8"></textarea>
+						
+						<input type="submit" value="Submit" >
+					
+					</fieldset>
+				
+				</form>
+				
+			</div> <!--main-->
+			<footer>
+				<!--<p class="jump"><a href="../index.html"><strong>Return to Stephen's Portal</strong></a></p>-->
+
+				<ul id="bottom">
+					<li> Copyright &copy; 2015 - Eastside Genealogical Society</li> 	
+					<li> All rights reserved</li> 	
+					<li><strong><a href="webmaster.html">Contact Webmaster</a></strong></li>
+				</ul>
+			</footer>
+
+			<p id="go-to-top"><a href="#wrapper">Go to the top of the page</a></p>
+
+		</div>  <!--wrapper-->
+	</body>
+</html>
